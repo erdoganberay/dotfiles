@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono Nerd Font:size=10:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:size=10:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -93,7 +93,7 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors generated using pywal16 (16 first used in escape sequence) */
+/* Terminal colors (16 first used in escape sequence) */
 #include "/home/kindzmarauli/.cache/wal/colors-wal-st.h"
 /*
  * Default shape of cursor
@@ -162,8 +162,6 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
-	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*

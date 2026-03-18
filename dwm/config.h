@@ -63,7 +63,7 @@ static const char *volumeDown[] = {"/usr/bin/wpctl",  "set-volume",  "@DEFAULT_A
 static const char *volumeMute[] = {"/usr/bin/wpctl",  "set-mute",  "@DEFAULT_AUDIO_SINK@",  "toggle",NULL};
 static const char *brightnessUp[] = {"brightnessctl","set","10%+",NULL};
 static const char *brightnessDown[] = {"brightnessctl","set","10%-",NULL};
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "st",NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
