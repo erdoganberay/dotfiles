@@ -1,0 +1,28 @@
+{
+    "checksum": "88594803713eea7dec890e30f95d4a1a",
+    "wallpaper": "/home/kindzmarauli/.dotfiles/wallpaper/futuristic.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1a1a",
+        "foreground": "#c2c6c3",
+        "cursor": "#c2c6c3"
+    },
+    "colors": {
+        "color0": "#1a1a1a",
+        "color1": "#967D71",
+        "color2": "#3d7a45",
+        "color3": "#667D93",
+        "color4": "#5A7FA0",
+        "color5": "#6788A4",
+        "color6": "#988C95",
+        "color7": "#c2c6c3",
+        "color8": "#4a5e4d",
+        "color9": "#967D71",
+        "color10": "#3d7a45",
+        "color11": "#667D93",
+        "color12": "#5A7FA0",
+        "color13": "#6788A4",
+        "color14": "#988C95",
+        "color15": "#c2c6c3"
+    }
+}
