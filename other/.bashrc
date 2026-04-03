@@ -13,6 +13,11 @@ alias grep='grep --color=auto'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias xi='sudo xbps-install'
+alias xq='sudo xbps-query'
+alias xr='sudo xbps-remove'
+alias nvim='bob run nightly'
+alias vim='bob run nightly'
 
 # prompt
 set_prompt() {
@@ -33,3 +38,4 @@ set_prompt() {
 }
 
 PROMPT_COMMAND=set_prompt
+ufetch
